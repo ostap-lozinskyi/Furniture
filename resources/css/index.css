@@ -13,13 +13,19 @@
     font-size: 30px;
 }
 
+h1 {
+    padding-top: 30px;
+    color: darkred;
+    text-align: center;
+    font-size: 25px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .image-container {
-
 }
 
 .image {
@@ -28,7 +34,9 @@
 }
 
 .image:hover {
-    width: 400px;
+    transition: 1.5s;
+    transition-delay: 2s;
+    transform: scale(1.7);
 }
 
 .description {
