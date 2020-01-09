@@ -34,11 +34,13 @@ h1 {
 }
 
 .image:hover {
-    transition: 1.5s;
-    transition-delay: 2s;
-    transform: scale(1.7);
+    cursor: zoom-in;
 }
 
 .description {
     text-align: center;
+}
+
+.photoIDModal {
+    width: 600px;
 }
