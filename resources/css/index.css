@@ -35,7 +35,7 @@ h2 {
 }
 
 .image-container {
-    margin: 10px;
+    margin-bottom: 15px;
     border: 3px double darkred;
     text-align: center;
 }
