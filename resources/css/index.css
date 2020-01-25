@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+a {
+    color: darkred;
+}
+
+a:hover {
+    color: darkred;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -13,16 +21,20 @@ b {
 
 h1 {
     padding-top: 20px;
-    color: white;
     text-align: center;
     font-size: 40px;
 }
 
 h2 {
-    padding-top: 20px;
     color: darkred;
     text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: darkred;
     font-size: 30px;
+    text-align: center;
 }
 
 .header {
@@ -32,6 +44,11 @@ h2 {
     color: white;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.header a{
+    color: white;
 }
 
 .image-container {
@@ -54,6 +71,10 @@ h2 {
     cursor: zoom-in;
 }
 
+.imageMainPage {
+    width: 200px;
+}
+
 .description {
     text-align: left;
     font-style: italic;
@@ -64,6 +85,20 @@ h2 {
 .photoIDModal {
     width: 100%;
     border: 1px solid gray;
+}
+
+.mainLink {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mainLink a {
+    color: darkred;
+}
+
+.mainLink:hover {
+    color: darkred;
 }
 
 /*@media (max-width: 992px) {*/
